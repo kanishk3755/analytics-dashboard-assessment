@@ -1,0 +1,87 @@
+/* General App Styling */
+
+.App {
+  font-family: 'Arial', sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f9f9f9; /* Light background for content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden;
+}
+
+/* Summary Section */
+.summary {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  background-color: #ffffff; /* White background for contrast */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: #333; /* Dark text for readability */
+}
+
+/* Column Selector */
+.column-selector {
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Rounded corners */
+  background-color: #ffffff;
+  color: #333; /* Dark text for readability */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  outline: none; /* Remove default outline */
+  transition: all 0.3s ease; /* Smooth interactions */
+}
+
+select:hover {
+  border-color: #aaa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Charts Section */
+.charts {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-left: 0;
+  background-color: #ffffff; /* White background for contrast */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Typography */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50; /* Modern dark blue */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2, h3 {
+  font-size: 20px;
+  color: #34495e; /* Slightly lighter modern blue */
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+
+  .charts {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
