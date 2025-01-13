@@ -24,6 +24,8 @@ The Electric Vehicle Population dataset is available in the [Electric Vehicle Po
 - Deploy your frontend dashboard to a hosting platform of your choice.
 - Make sure the dashboard is publicly accessible.
 
+- Deployment link: https://mapup-assignment-electric-vehicle.netlify.app/
+
 ## Evaluation Criteria
 
 Your submission will be evaluated based on:
